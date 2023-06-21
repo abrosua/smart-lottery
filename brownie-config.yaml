@@ -1,0 +1,30 @@
+compiler:
+  solc:
+    remappings:
+    - '@chainlink=smartcontractkit/chainlink-brownie-contracts@0.6.1'
+    - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.9.1'
+dependencies:
+- smartcontractkit/chainlink-brownie-contracts@0.6.1
+- OpenZeppelin/openzeppelin-contracts@4.9.1
+dotenv: .env
+networks:
+  development:
+    fund_amount: 5000000000000000000
+    key_hash: '0x474e34a077df58807dbe9c96d3c009b23b3c6d0cce433e59bbf5b34f823bc56c'
+    verify: false
+  ganache-local:
+    verify: false
+  mainnet-fork:
+    eth_usd_price_feed: '0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419'
+    fund_amount: 5000000000000000000
+    verify: false
+  sepolia:
+    eth_usd_price_feed: '0x694AA1769357215DE4FAC081bf1f309aDC325306'
+    fund_amount: 5000000000000000000
+    key_hash: '0x474e34a077df58807dbe9c96d3c009b23b3c6d0cce433e59bbf5b34f823bc56c'
+    link_token: '0x779877A7B0D9E8603169DdbD7836e478b4624789'
+    subscription_id: 2834
+    verify: true
+    vrf_coordinator: '0x8103B0A8A00be2DDC778e6e7eaa21791Cd364625'
+wallets:
+  key_playground: ${PRIVATE_KEY_PLAYGROUND}
