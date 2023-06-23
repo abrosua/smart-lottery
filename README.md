@@ -1,7 +1,7 @@
 # Smart Lottery
 A decentralized lottery smart contract built with Brownie and OpenZeppelin. Deployed on [Sepolia Testnet](https://sepolia.dev/).
 
-This is inspired by the [smartcontract-lottery](https://github.com/PatrickAlphaC/smartcontract-lottery) by [freeCodeCamp](https://www.youtube.com/watch?v=M576WGiDBdQ&list=PLzRreXG8NJkK0Vuvh-cbx6KJy8t8ml2OG&index=37) using the [VRF V2 Subscription Method](https://docs.chain.link/vrf/v2/subscription).
+This project is inspired by the [smartcontract-lottery](https://github.com/PatrickAlphaC/smartcontract-lottery) by [freeCodeCamp](https://www.youtube.com/watch?v=M576WGiDBdQ&list=PLzRreXG8NJkK0Vuvh-cbx6KJy8t8ml2OG&index=37) using the [VRF V2 Subscription Method](https://docs.chain.link/vrf/v2/subscription).
 
 How the lottery works?
 1. Admin will start the lottery.
